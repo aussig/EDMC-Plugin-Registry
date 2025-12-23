@@ -1,0 +1,19 @@
+  {
+    "pluginName": "Plugin1",
+    "pluginVer": "1.2.3",
+    "pluginZip": "https://github.com/UserName/PluginName/releases/download/1.0.0/PluginName-1.0.0.zip",
+    "autoUpdateEnabled": false,
+    "autoInstallEnabled": false,
+    "pluginAuthors": ["Phil the Plugin Maker"],
+    "pluginMainLink": "https://github.com/UserName/PluginName",
+    "pluginLastUpdate": "2025-12-13",
+    "pluginDirName": "plugin1",
+    "pluginCategory": ["Navigation", "Exploration", "Engineering"],
+    "pluginDesc": "A single line about what this plugin does here.",
+    "pluginLastTestedEDMC": "6.0.0",
+    "pluginRequirements": [],
+    "pluginLicense": "",
+    "pluginIcon": "",
+    "pluginVT": "",
+    "pluginHash": ""
+  }
