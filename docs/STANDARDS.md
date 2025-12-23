@@ -7,13 +7,15 @@ When submitting your plugin for listing, you agree to follow these standards on 
 ## Compatibilty
 You are responsible for keeping your plugin compatible with the most recent versions of EDMC. When EDMC adds or removes functionality, you are responsible for keeping your plugin updated in a timely manner. If a plugin is not updated between versions or significant numbers of users report the plugin is not compatible with the most recent versions of EDMC, your plugin will be removed.
 
+As EDMC evolves, plugins may be released that are not compatible with older versions of EDMC. Plugin authors are not required to maintain compatibilty with older versions of EDMC outside of patch releases. That is to say, for EDMC 6.1.5, plugins listed are only required to be compatible with (at a minimum) version 6.1.0+.
+
 ## Licensing
-EDMC is licensed under the GNU GPL v2 license. To be listed, your plugin must also be open source and compatible with the GNU GPL v2 license. Generally speaking, this means your code must also use the GNU GPL v2 license.
+EDMC is licensed under the GNU GPL v2 or later license. Plugins of EDMC are considered "derivitive works" under the GPL licensing terms, and must abide by the terms of these licenses. To be listed, your plugin must also be open source and compatible with the GNU GPL v2 or later license. Generally speaking, this means your plugin must be licensed under GNU GPL v2 or GNU GPL v3. 
 
 ## Respect for the Ecosystem
 You agree that your plugin will be a good steward of the Elite: Dangerous community's resources. Plugins may not perform actions that break Frontier's EULA, provide malicious content or functionality, or cause a disruption to other community services. For example, scraping community webpages instead of using API calls may be cause for a plugin listing to be denied. 
 
-Similarly, impersonation or squatting on valuable namespace will not be allowed. Plugins should be named and use namespaces that generally reflect te purpose of the plugin. Plugins should not be written to "jump to the top" of the directory structure (such as "1TheBestPlugin") or add tags that give the impression that the plugin provides more functionality than it actually provides.
+Similarly, impersonation or squatting on valuable namespace will not be allowed. Plugins should be named and use namespaces that generally reflect te purpose of the plugin. Plugins should not be written to "jump to the top" of the directory structure alphabetically (such as "1TheBestPlugin"), add tags that give the impression that the plugin provides more functionality than it actually provides, or in any other way be disruptive or confusing to the EDMC ecosystem.
 
 ## Least Privilege 
 Plugins may not bundle, package, or include more resources or content than is required for the plugin to perform its functions. As an example, plugins may not include content that scrapes browser history if the plugin has no cause for this access. Similarly, plugins may not bundle extra Python modules that aren't needed for the plugin's purpose. 
@@ -23,7 +25,7 @@ Furthermore, plugins shall be written so as to not request more system privilege
 ## Coding Standards
 Code must generally be written to a high standard. This means that code should be readable, well-documented, and conform to the best practices of the language in use. All code must be manually reviewed prior to a plugin submission being accepted for listing. If our manual reviewers can't understand the code or follow it, we can't list it. 
 
-In general, plugins who use Python code should be written generally inline with PEP8 standards, and should use Python 3 coding standards. 
+As an example, plugins who use Python code should be written generally inline with PEP8 standards and the best practices establshed for EDMC code.
 
 ## Version Control
-Plugins must use Semantic Versioning in order to be listed in the EDMC plugin browser. This version must be available in a VERSION constant in the plugin's load.py. 
+Plugins must use Semantic Versioning in order to be listed in the EDMC plugin browser. This version must be available in a VERSION constant in the plugin's `load.py` file. 

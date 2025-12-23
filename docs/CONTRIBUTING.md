@@ -8,7 +8,27 @@ Before submtting a plugin, please review the standards in [STANDARDS.md](/docs/S
 
 After review, and ensuring that your plugin meets all the standards, you can open a new PR. For new plugins, you will want this PR to include a new .json file with the details of the plugin you wish to list. Be sure to fill this out completely. You can view an example of the format we expect the JSON file to be in [example.json](/docs/example.json). 
 
-All of the fields are required to be present. Some fields, such as requirements, may be empty lists if no external requirements are present.
+### Required Fields:
+The current fields expected are:
+- `pluginName`: (str) The name of the plugin.
+- `pluginVer`: (str) A Semantic Version compatible version string.
+- `pluginZip`: (str) A link to the latest release archive of the plugin. 
+- `autoUpdateEnabled`: (bool) A boolean value that determines if the plugin can attempt to auto-update.
+- `autoInstallEnabled`: (bool) A boolean value that determines if the plugin can attempt to automatically install itself.
+- `pluginAuthors`: (list) A list of strings, where each string is an author or authorized maintainer of a plugin. 
+- `pluginMainLink`: (str) A web URL for the mmammain project page.
+- `pluginLastUpdate`: (str) The date of the last plugin update.
+- `pluginDirName`: (str) The directory the plugin is loaded from by default. Generally, this is the name of the plugin.
+- `pluginCagegory`: (list) A list of strings of which categories the plugin belongs to. Valid categories are listed below. 
+- `pluginDesc`: (str) A brief description of the plugin's purpose. 
+- `pluginLastTestedEDMC`: (str) The last version of EDMC this plugin was tested against. 
+- `pluginLicense`: (str) The SPDX license string for your plugin's chosen license.
+- `pluginVT`: (str) A link to the plugin's release archive upload to VirusTotal (or another similar tool).
+- `pluginHash`: (str) the SHA256 Hash Value of the plugin's release archive. 
+
+### Optional Fields: 
+- `pluginRequirements`: (list) A list of strings, where each string is a non-standard requirement needed for the plugin to work, or the name of another plugin required. 
+- `pluginIcon`: (str) A web link to a png or ico file for a plugin. 
 
 Currently, `autoUpdateEnabled` and `autoInstallEnabled` should both be left at False, as these represent future features that are not currently available. 
 
@@ -45,3 +65,4 @@ The review team are people who test plugins, review their code, and ensure that 
 
 We encourage users to review open PRs for new plugins, or updates to existing plugins and provide feedback as to if the plugins are working as intended. We also welcome reports of listed plugins not working anymore. While we encourage reporters to work with plugin developers, we also accept reports of plugins failing to work properly if the developers are not able to be contacted. 
 
+We occasionally may recruit more people to be valid approvers for new plugins or plugin updates. Generally, we will try and recruit volunteers from established plugin developers. 
