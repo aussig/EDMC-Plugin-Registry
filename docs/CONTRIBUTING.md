@@ -23,12 +23,15 @@ The current fields expected are:
 - `pluginDesc`: (str) A brief description of the plugin's purpose. 
 - `pluginLastTestedEDMC`: (str) The last version of EDMC this plugin was tested against. 
 - `pluginLicense`: (str) The SPDX license string for your plugin's chosen license.
-- `pluginVT`: (str) A link to the plugin's release archive upload to VirusTotal (or another similar tool).
-- `pluginHash`: (str) the SHA256 Hash Value of the plugin's release archive. 
+
+### Recommended Fields:
+These fields will be required in order to use the upcoming Auto Update or Auto Install functionality. 
+- `pluginHash`: (str) the SHA256 Hash Value of the plugin's release archive.
 
 ### Optional Fields: 
 - `pluginRequirements`: (list) A list of strings, where each string is a non-standard requirement needed for the plugin to work, or the name of another plugin required. 
-- `pluginIcon`: (str) A web link to a PNG or ICO file for a plugin. 
+- `pluginIcon`: (str) A web link to a PNG or ICO file for a plugin.
+- `pluginVT`: (str) A link to the plugin's release archive upload to VirusTotal (or another similar tool).
 
 Currently, `autoUpdateEnabled` and `autoInstallEnabled` should both be left at False, as these represent future features that are not currently available. 
 
