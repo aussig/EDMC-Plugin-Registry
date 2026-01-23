@@ -48,31 +48,31 @@
     "pluginIcon": "",
     "pluginVT": "https://www.virustotal.com/gui/file/997e178c8a0968346e37efb2bc29f9f73c308c247a595355b3279f3cc93b9924?nocache=1",
     "pluginHash": "",
-    "pluginStars": "16"
+    "pluginStars": "17"
   },
   {
     "pluginName": "EDMC-NeutronDancer",
-    "pluginVer": "1.6.0",
-    "pluginZip": "https://github.com/dwomble/EDMC-NeutronDancer/releases/download/v1.6.0/EDMC-NeutronDancer.zip",
+    "pluginVer": "1.6.2",
+    "pluginZip": "https://github.com/dwomble/EDMC-NeutronDancer/releases/download/v1.6.2/EDMC-NeutronDancer.zip",
     "autoUpdateEnabled": true,
     "autoInstallEnabled": false,
     "pluginAuthors": [
       "dwomble"
     ],
     "pluginMainLink": "https://github.com/dwomble/EDMC-NeutronDancer",
-    "pluginLastUpdate": "2026-01-03",
+    "pluginLastUpdate": "2026-01-21",
     "pluginDirName": "EDMC-NeutronDancer",
     "pluginCategory": [
       "Navigation",
       "Exploration"
     ],
     "pluginDesc": "Simplifies/automates Spansh Neutron (and other) routing.",
-    "pluginLastTestedEDMC": "6.0.2",
+    "pluginLastTestedEDMC": "6.1.0",
     "pluginRequirements": [],
     "pluginLicense": "MIT License",
     "pluginIcon": "",
-    "pluginVT": "https://www.virustotal.com/gui/file/d128bea0fa54957775f24a93155f0f80de8cb4723f1e8dbb216fe63474cbe485/details",
-    "pluginHash": "d128bea0fa54957775f24a93155f0f80de8cb4723f1e8dbb216fe63474cbe485",
+    "pluginVT": "https://www.virustotal.com/gui/file/3d65a802b4db4a54d073006495335c7d4c9d171a2eb8b7b6313f7cb75815ec3c/details",
+    "pluginHash": "3d65a802b4db4a54d073006495335c7d4c9d171a2eb8b7b6313f7cb75815ec3c",
     "pluginStars": "5"
   },
   {
@@ -102,7 +102,7 @@
     "pluginIcon": "https://raw.githubusercontent.com/SweetJonnySauce/EDMCModernOverlay/refs/heads/main/extras/EDMCModernOverlay.ico",
     "pluginVT": "https://github.com/SweetJonnySauce/EDMCModernOverlay/releases/download/0.7.6/vt-transparency.html",
     "pluginHash": "",
-    "pluginStars": "29"
+    "pluginStars": "31"
   },
   {
     "pluginName": "LandingPad",
