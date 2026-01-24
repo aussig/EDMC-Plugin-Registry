@@ -48,7 +48,7 @@
     "pluginIcon": "",
     "pluginVT": "https://www.virustotal.com/gui/file/997e178c8a0968346e37efb2bc29f9f73c308c247a595355b3279f3cc93b9924?nocache=1",
     "pluginHash": "",
-    "pluginStars": "17"
+    "pluginStars": "18"
   },
   {
     "pluginName": "EDMC-NeutronDancer",
@@ -105,6 +105,33 @@
     "pluginStars": "31"
   },
   {
+    "pluginName": "ExploData",
+    "pluginVer": "1.5.1",
+    "pluginZip": "https://github.com/Silarn/EDMC-BioScan/releases/download/v2.12.2/ExploData-1.5.1-db-12.windows.exe.zip",
+    "autoUpdateEnabled": false,
+    "autoInstallEnabled": false,
+    "pluginAuthors": [
+      "Silarn"
+    ],
+    "pluginMainLink": "https://github.com/Silarn/EDMC-ExploData",
+    "pluginLastUpdate": "2026-01-10",
+    "pluginDirName": "ExploData",
+    "pluginCategory": [
+      "Utility",
+      "Other"
+    ],
+    "pluginDesc": "Database backend for BioScan and Pioneer. Parses and stores journal data for persistency.",
+    "pluginLastTestedEDMC": "6.1.0",
+    "pluginRequirements": [
+      "SQLAlchemy"
+    ],
+    "pluginLicense": "GPL-2.0-or-later",
+    "pluginIcon": "",
+    "pluginVT": "",
+    "pluginHash": "c43a11a9b56e534c419c2e799ae503deb17021d33aa288677b2d47fcd7ddd002",
+    "pluginStars": "7"
+  },
+  {
     "pluginName": "LandingPad",
     "pluginVer": "2.5.7",
     "pluginZip": "https://github.com/bgol/LandingPad/releases/download/v2.5.7/LandingPad_v2.5.7.zip",
@@ -127,7 +154,7 @@
     "pluginIcon": "",
     "pluginVT": "https://www.virustotal.com/gui/file/4523a3640e107049ff9f029fafd2032dbd66db77f1bd7f4d200751d7642d11c1",
     "pluginHash": "4523a3640e107049ff9f029fafd2032dbd66db77f1bd7f4d200751d7642d11c1",
-    "pluginStars": "41"
+    "pluginStars": "42"
   },
   {
     "pluginName": "UpdateTD",
