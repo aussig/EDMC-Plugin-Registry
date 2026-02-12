@@ -24,7 +24,7 @@
     "pluginIcon": "https://raw.githubusercontent.com/aussig/BGS-Tally/refs/heads/develop/assets/logo_bgstally_100x67.png",
     "pluginVT": "https://www.virustotal.com/gui/url/eaf0b89be98a16d0791da383da6fd12c4f585ff43b15cc84bb147350f3092b4a",
     "pluginHash": "339f8ca25efb76366075c821a0a9b9abf11ab68e73c355761378dbcecf2bdbbd",
-    "pluginStars": "50"
+    "pluginStars": "51"
   },
   {
     "pluginName": "EDMC-BioScan",
@@ -52,7 +52,7 @@
     "pluginIcon": "",
     "pluginVT": "",
     "pluginHash": "dfc8d8233ba9f3d4357757e6d3f4a3fd52d1169cdb25a168af0ffe2e45dfa1dd",
-    "pluginStars": "31"
+    "pluginStars": "32"
   },
   {
     "pluginName": "EDMC-Mining-Analytics",
@@ -76,7 +76,7 @@
     "pluginIcon": "",
     "pluginVT": "https://www.virustotal.com/gui/file/997e178c8a0968346e37efb2bc29f9f73c308c247a595355b3279f3cc93b9924?nocache=1",
     "pluginHash": "",
-    "pluginStars": "18"
+    "pluginStars": "19"
   },
   {
     "pluginName": "EDMC-NavRoute",
@@ -103,7 +103,7 @@
     "pluginIcon": "",
     "pluginVT": "",
     "pluginHash": "fe0843c4546c357150eb11846809869bd965a1af5e3e3112a17792b88d6197c7",
-    "pluginStars": "1"
+    "pluginStars": "2"
   },
   {
     "pluginName": "EDMC-NeutronDancer",
@@ -128,7 +128,7 @@
     "pluginIcon": "",
     "pluginVT": "https://www.virustotal.com/gui/file/3d65a802b4db4a54d073006495335c7d4c9d171a2eb8b7b6313f7cb75815ec3c/details",
     "pluginHash": "3d65a802b4db4a54d073006495335c7d4c9d171a2eb8b7b6313f7cb75815ec3c",
-    "pluginStars": "7"
+    "pluginStars": "9"
   },
   {
     "pluginName": "EDMC-Pioneer",
@@ -155,7 +155,7 @@
     "pluginIcon": "",
     "pluginVT": "",
     "pluginHash": "f6719ccb780247fc5a721eb56b251b81be93df4659d0215c81895574f24cff32",
-    "pluginStars": "18"
+    "pluginStars": "19"
   },
   {
     "pluginName": "EDMCModernOverlay",
@@ -184,7 +184,7 @@
     "pluginIcon": "https://raw.githubusercontent.com/SweetJonnySauce/EDMCModernOverlay/refs/heads/main/extras/EDMCModernOverlay.ico",
     "pluginVT": "https://github.com/SweetJonnySauce/EDMCModernOverlay/releases/download/0.7.6/vt-transparency.html",
     "pluginHash": "",
-    "pluginStars": "32"
+    "pluginStars": "33"
   },
   {
     "pluginName": "GalaxyGPS",
@@ -210,7 +210,7 @@
     "pluginIcon": "",
     "pluginVT": "",
     "pluginHash": "c1387039b7e86e2e325f8e67352cc350db1ea98dc1ce9f51cdd27a0d96175eb0",
-    "pluginStars": "2"
+    "pluginStars": "4"
   },
   {
     "pluginName": "ExploData",
@@ -237,7 +237,7 @@
     "pluginIcon": "",
     "pluginVT": "",
     "pluginHash": "c43a11a9b56e534c419c2e799ae503deb17021d33aa288677b2d47fcd7ddd002",
-    "pluginStars": "7"
+    "pluginStars": "8"
   },
   {
     "pluginName": "LandingPad",
@@ -262,7 +262,7 @@
     "pluginIcon": "",
     "pluginVT": "https://www.virustotal.com/gui/file/4523a3640e107049ff9f029fafd2032dbd66db77f1bd7f4d200751d7642d11c1",
     "pluginHash": "4523a3640e107049ff9f029fafd2032dbd66db77f1bd7f4d200751d7642d11c1",
-    "pluginStars": "42"
+    "pluginStars": "43"
   },
   {
     "pluginName": "UpdateTD",
